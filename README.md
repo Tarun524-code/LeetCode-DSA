@@ -19,9 +19,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
 | [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
 ## Prefix Sum
 |  |
 | ------- |
 | [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
+## Hash Table
+|  |
+| ------- |
+| [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
+## Counting
+|  |
+| ------- |
+| [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
 <!---LeetCode Topics End-->
