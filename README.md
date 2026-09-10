@@ -16,4 +16,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [3870-count-commas-in-range](https://github.com/Tarun524-code/Java/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/Tarun524-code/Java/tree/master/3871-count-commas-in-range-ii) |
+## Array
+|  |
+| ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
 <!---LeetCode Topics End-->
