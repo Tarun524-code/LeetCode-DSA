@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0115-distinct-subsequences](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0115-distinct-subsequences) |
 | [0940-distinct-subsequences-ii](https://github.com/Tarun524-code/Java/tree/master/0940-distinct-subsequences-ii) |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Math
 |  |
 | ------- |
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3483-unique-3-digit-even-numbers) |
 | [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
 | [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
@@ -55,4 +57,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3483-unique-3-digit-even-numbers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3483-unique-3-digit-even-numbers) |
+## Binary Search
+|  |
+| ------- |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
+## Sorting
+|  |
+| ------- |
+| [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 <!---LeetCode Topics End-->
