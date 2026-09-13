@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
 | [0835-image-overlap](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0835-image-overlap) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3483-unique-3-digit-even-numbers) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
 | [3483-unique-3-digit-even-numbers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3483-unique-3-digit-even-numbers) |
 | [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
 ## Counting
