@@ -1,20 +1,24 @@
 class Solution {
-    public int numberOfSets(int n, int k) {
-        long mod = 1000000007, num = 1, den = 1;
-        for (int i = 1; i <= 2 * k; i++) {
-            num = (num * (n + k - i)) % mod;
-            den = (den * i) % mod;
+
+    private static final long MOD = 1000000007L;
+
+    private long quickPow(long a, long e) {
+        long result = 1;
+        while (e > 0) {
+            if ((e & 1) != 0) result = (result * a) % MOD;
+            a = (a * a) % MOD;
+            e >>= 1;
         }
-        return (int) ((num * power(den, mod - 2, mod)) % mod);
+        return result;
     }
-    
-    public long power(long base, long exp, long mod) {
-        long res = 1;
-        while (exp > 0) {
-            if (exp % 2 == 1) res = (res * base) % mod;
-            base = (base * base) % mod;
-            exp /= 2;
+
+    public int numberOfSets(int n, int k) {
+        int m = 2 * k;
+        long numerator = 1, denominator = 1;
+        for (int i = 1; i <= m; i++) {
+            numerator = (numerator * (n + k - i)) % MOD;
+            denominator = (denominator * i) % MOD;
         }
-        return res;
+        return (int) ((numerator * quickPow(denominator, MOD - 2)) % MOD);
     }
 }
