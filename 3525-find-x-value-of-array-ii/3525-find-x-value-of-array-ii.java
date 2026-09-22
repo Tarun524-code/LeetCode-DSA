@@ -1,113 +1,126 @@
-class Solution {
-    class Node {
-        int prod; 
-        int[] freq; 
-        
-        Node(int k) {
-            freq = new int[k];
-            prod = 1;
-        }
-    }
-
-    private Node[] tree;
-    private int k;
-    private Node merge(Node left, Node right) {
-        if (left == null) return right;
-        if (right == null) return left;
-        
-        Node res = new Node(k);
-        
-        res.prod = (left.prod * right.prod) % k;
-        for (int i = 0; i < k; i++) {
-            res.freq[i] += left.freq[i];
-        }
-        for (int i = 0; i < k; i++) {
-            if (right.freq[i] > 0) {
-                int new_mod = (left.prod * i) % k;
-                res.freq[new_mod] += right.freq[i];
-            }
-        }
-        
-        return res;
-    }
-
-    private void build(int node, int start, int end, int[] nums) {
-        if (start == end) {
-            tree[node] = new Node(k);
-            int modVal = nums[start] % k;
-            tree[node].prod = modVal;
-            tree[node].freq[modVal] = 1;
-            return;
-        }
-        
-        int mid = start + (end - start) / 2;
-        build(2 * node, start, mid, nums);
-        build(2 * node + 1, mid + 1, end, nums);
-        
-        tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
-    }
-
-    private void update(int node, int start, int end, int idx, int val) {
-        if (start == end) {
-            int modVal = val % k;
-            tree[node].prod = modVal;
-            for (int i = 0; i < k; i++) {
-                tree[node].freq[i] = 0;
-            }
-            tree[node].freq[modVal] = 1;
-            return;
-        }
-        
-        int mid = start + (end - start) / 2;
-        if (idx <= mid) {
-            update(2 * node, start, mid, idx, val);
-        } else {
-            update(2 * node + 1, mid + 1, end, idx, val);
-        }
-        
-        tree[node] = merge(tree[2 * node], tree[2 * node + 1]);
-    }
-
-    private Node query(int node, int start, int end, int l, int r) {
-        if (l > end || r < start) {
-            return null; 
-        }
-        if (l <= start && end <= r) {
-            return tree[node];
-        }
-        
-        int mid = start + (end - start) / 2;
-        Node left = query(2 * node, start, mid, l, r);
-        Node right = query(2 * node + 1, mid + 1, end, l, r);
-        
-        return merge(left, right);
-    }
-
-    public int[] resultArray(int[] nums, int k, int[][] queries) {
+class Solution 
+{
+    public int[] resultArray(int[] nums, int k, int[][] queries) 
+    {
         int n = nums.length;
-        this.k = k;
-
-        tree = new Node[4 * n + 1];
-        build(1, 0, n - 1, nums);
-
+        SegmentTree seg = new SegmentTree(nums, k);
         int[] ans = new int[queries.length];
-        
-        for (int i = 0; i < queries.length; i++) {
-            int idx = queries[i][0];
-            int val = queries[i][1];
-            int st = queries[i][2];
-            int x = queries[i][3];
 
-            update(1, 0, n - 1, idx, val);
+        for (int i = 0; i < queries.length; i++) 
+        {
+            int[] q = queries[i];
+            int index = q[0];
+            int value = q[1];
+            int start = q[2];
+            int x = q[3];
 
-            if (st >= n) {
-                ans[i] = 0;
-            } else {
-                Node res = query(1, 0, n - 1, st, n - 1);
-                ans[i] = (res == null) ? 0 : res.freq[x];
+            seg.update(1, 0, n - 1, index, value);
+            int[] pre = seg.query(1, 0, n - 1, start, n - 1);
+            ans[i] = pre[x];
+        }
+
+        return ans;
+    }
+
+    private class SegmentTree 
+    {
+        private static final int MAXK = 6;
+        private int k;
+        private int n;
+        private int[][] tree;
+
+        private SegmentTree(int[] nums, int k) 
+        {
+            this.k = k;
+            this.n = nums.length;
+            int size = 2 << Integer.toBinaryString(n).length();
+            tree = new int[size][MAXK];
+            build(nums, 1, 0, n - 1);
+        }
+
+        private void makeLeaf(int o, int value) 
+        {
+            Arrays.fill(tree[o], 0);
+            int r = value % k;
+            tree[o][r] = 1;
+            tree[o][k] = r;
+        }
+
+        private void mergePre(int[] left, int[] right, int[] result) 
+        {
+            int mulL = left[k];
+            int mulR = right[k];
+            result[k] = (mulL * mulR) % k;
+
+            for (int x = 0; x < k; x++) 
+            {
+                result[x] = left[x];
+            }
+            for (int x = 0; x < k; x++) {
+                result[(mulL * x) % k] += right[x];
             }
         }
-        
-        return ans;
+
+        private void maintain(int o) 
+        {
+            mergePre(tree[o * 2], tree[o * 2 + 1], tree[o]);
+        }
+
+        private void build(int[] nums, int o, int l, int r) 
+        {
+            if (l == r) 
+            {
+                makeLeaf(o, nums[l]);
+                return;
+            }
+            int m = (l + r) / 2;
+            build(nums, o * 2, l, m);
+            build(nums, o * 2 + 1, m + 1, r);
+            maintain(o);
+        }
+
+        public void update(int o, int l, int r, int index, int value) 
+        {
+            if (l == r) 
+            {
+                makeLeaf(o, value);
+                return;
+            }
+            int m = (l + r) / 2;
+            
+            if (index <= m) 
+            {
+                update(o * 2, l, m, index, value);
+            } 
+            else 
+            {
+                update(o * 2 + 1, m + 1, r, index, value);
+            }
+            maintain(o);
+        }
+
+        public int[] query(int o, int l, int r, int L, int R) 
+        {
+            if (L <= l && r <= R) 
+            {
+                return tree[o];
+            }
+
+            int m = (l + r) / 2;
+            if (R <= m) 
+            {
+                return query(o * 2, l, m, L, R);
+            }
+            if (L > m) 
+            {
+                return query(o * 2 + 1, m + 1, r, L, R);
+            }
+
+            int[] left = query(o * 2, l, m, L, R);
+            int[] right = query(o * 2 + 1, m + 1, r, L, R);
+            int[] result = new int[MAXK];
+            mergePre(left, right, result);
+            return result;
+        }
     }
 }
