@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0115-distinct-subsequences](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0115-distinct-subsequences) |
+| [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0940-distinct-subsequences-ii](https://github.com/Tarun524-code/Java/tree/master/0940-distinct-subsequences-ii) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
+| [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0835-image-overlap](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0835-image-overlap) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -87,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -139,4 +142,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3525-find-x-value-of-array-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3525-find-x-value-of-array-ii) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
