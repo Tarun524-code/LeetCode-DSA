@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
 | [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0835-image-overlap](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0835-image-overlap) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
@@ -99,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
+| [0442-find-all-duplicates-in-an-array](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
 ## Matrix
