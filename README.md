@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0022-generate-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0042-trapping-rain-water) |
 | [0115-distinct-subsequences](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0115-distinct-subsequences) |
 | [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0940-distinct-subsequences-ii](https://github.com/Tarun524-code/Java/tree/master/0940-distinct-subsequences-ii) |
@@ -43,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0001-two-sum) |
+| [0042-trapping-rain-water](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0042-trapping-rain-water) |
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
 | [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0442-find-all-duplicates-in-an-array) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0020-valid-parentheses) |
+| [0042-trapping-rain-water](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0042-trapping-rain-water) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -146,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0042-trapping-rain-water) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 ## Greedy
 |  |
@@ -178,4 +182,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0022-generate-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
