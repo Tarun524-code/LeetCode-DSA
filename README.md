@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3843-first-element-with-unique-frequency](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3843-first-element-with-unique-frequency) |
 | [3886-sum-of-sortable-integers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3886-sum-of-sortable-integers) |
 | [3904-smallest-stable-index-ii](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3904-smallest-stable-index-ii) |
+| [3942-minimum-operations-to-sort-a-permutation](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3942-minimum-operations-to-sort-a-permutation) |
 ## Prefix Sum
 |  |
 | ------- |
