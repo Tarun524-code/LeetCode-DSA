@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0836-rectangle-overlap](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0217-contains-duplicate) |
 | [0300-longest-increasing-subsequence](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0300-longest-increasing-subsequence) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0453-minimum-moves-to-equal-array-elements](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0835-image-overlap](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0835-image-overlap) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/0992-subarrays-with-k-different-integers) |
 | [1254-number-of-closed-islands](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1254-number-of-closed-islands) |
