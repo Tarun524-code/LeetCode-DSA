@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [2409-count-days-spent-together](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/2409-count-days-spent-together) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [3498-reverse-degree-of-a-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3498-reverse-degree-of-a-string) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1606-find-servers-that-handled-most-number-of-requests](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/1606-find-servers-that-handled-most-number-of-requests) |
+| [2243-calculate-digit-sum-of-a-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/2243-calculate-digit-sum-of-a-string) |
 | [3498-reverse-degree-of-a-string](https://github.com/Tarun524-code/LeetCode-DSA/tree/master/3498-reverse-degree-of-a-string) |
 ## Segment Tree
 |  |
