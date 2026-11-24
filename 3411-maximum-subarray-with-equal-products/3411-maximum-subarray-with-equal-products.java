@@ -1,44 +1,34 @@
-class Solution {
-    private long gcd(long a, long b) {
-        while (b != 0L) {
-            long temp = b;
-            b = a % b;
-            a = temp;
-        }
-        return a;
-    }
-
-    private long lcm(long a, long b) {
-        return (a / gcd(a, b)) * b;
-    }
-
-    public int maxLength(int[] nums) {
+class Solution 
+{
+    public int maxLength(int[] nums) 
+    {
+        int res = 2;
+        int prodVal = 1;
         int n = nums.length;
-        int maxLen = 0;
-        for (int i = 0; i < n; i++) {
-            long currentProd = 1L;
-            long currentGcd = nums[i];
-            long currentLcm = nums[i];
+        int start = 0, end = 0;
 
-            for (int j = i; j < n; j++) {
-                if (currentProd > 1000000000000L / nums[j]) {
-                    currentProd = 2000000000000L;
-                } else {
-                    currentProd *= nums[j];
-                }
-
-                if (j > i) {
-                    currentGcd = gcd(currentGcd, nums[j]);
-                    currentLcm = lcm(currentLcm, nums[j]);
-                }
-
-                if (currentProd == currentLcm * currentGcd) {
-                    if (j - i + 1 > maxLen) {
-                        maxLen = j - i + 1;
-                    }
-                }
+        while (end < n) 
+        {
+            while (gcd(prodVal, nums[end]) > 1) 
+            {
+                prodVal /= nums[start];
+                start++;
             }
+            prodVal *= nums[end];
+            res = Math.max(res, end - start + 1);
+            end++;
         }
-        return maxLen;
+        return res;
+    }
+
+    private int gcd(int num1, int num2) 
+    {
+        while (num2 != 0) 
+        {
+            int temp = num1;
+            num1 = num2;
+            num2 = temp % num2;
+        }
+        return num1;
     }
 }
